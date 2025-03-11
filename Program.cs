@@ -16,7 +16,7 @@ namespace DungeonExplorer
         static void Start()
         {
             Console.WriteLine("Dungeon");
-            Console.WriteLine("NAme: ");
+            Console.WriteLine("Name: ");
             Console.ReadLine();
         }
     }
