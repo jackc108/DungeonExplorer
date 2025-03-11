@@ -8,6 +8,7 @@ namespace DungeonExplorer
 {
     internal class Program
     {
+        public static Player currentPlayer = new Player();
         static void Main(string[] args)
         {
             Start();
@@ -17,7 +18,7 @@ namespace DungeonExplorer
         {
             Console.WriteLine("Dungeon");
             Console.WriteLine("Name: ");
-            Console.ReadLine();
+            currentPlayer.name = Console.ReadLine();
         }
     }
 }
