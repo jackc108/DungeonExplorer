@@ -19,6 +19,9 @@ namespace DungeonExplorer
             Console.WriteLine("Dungeon");
             Console.WriteLine("Name: ");
             currentPlayer.name = Console.ReadLine();
+            Console.WriteLine("You awake in a cold, stone, dark room. You seem to be having trouble remembering");
+            Console.WriteLine("You know your name is " + currentPlayer.name);
+            Console.ReadKey();
         }
     }
 }
